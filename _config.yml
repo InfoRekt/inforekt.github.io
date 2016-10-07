@@ -1,0 +1,16 @@
+permalink: /:year-:month-:day/:title/
+
+highlighter: rouge
+markdown: kramdown
+baseurl: ""
+
+
+
+title: "InfoRekt; constructive feedback on infosec fails"
+email: "captainhindsight@inforekt.fail"
+description: "Got Rekt? Probably an OpSec fail."
+github_username:  "InfoRekt"
+
+url: "http://192.168.1.15:4000"
+#url: "http://inforekt.github.io"
+

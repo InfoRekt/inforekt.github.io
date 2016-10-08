@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
+  background: #151515 url("/static/img/bkg.png") 0 0;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -12,7 +12,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -39,8 +39,8 @@ header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
   border-bottom: 1px dashed #b5e853;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
+  padding: 10px 0;
+  margin: 0 0 20px 0;
 }
 
 header h1 {
@@ -219,7 +219,7 @@ hr {
 
 .btn-github .icon {
   opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
+  background: url("/static/img/blacktocat.png") 0 0 no-repeat;
 }
 
 /* Links
@@ -229,6 +229,19 @@ hr {
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+a.srclink {
+  font-size: 10px;
+}
+.srclink {
+  font-size: 10px;
 }
 
 /* Clearfix */
@@ -244,4 +257,68 @@ a {
 
 .cf {
   zoom:1;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+.footerline {
+  font-size: 12px;
+  color: #767676;
+  float:left;
+  position:relative;
+  margin-top: -10px;
+}
+.footerright {
+  font-size: 12px;
+  float:right;
+  position:relative;
+  margin-top: -10px;
+}
+a.footerlink {
+  color:#767676;
+}
+.menu {
+ background: #6666ff;
+ padding-left: 10px;
+ color: #00ffff;
+ height:18px;
+}
+a.menuitem {
+  color: #a9b3bc;
+}
+span.menutxt {
+position: absolute;
+margin-top:-3px;
 }

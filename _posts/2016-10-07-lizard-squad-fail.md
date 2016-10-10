@@ -10,18 +10,5 @@ srcshort: https://justice.gov/whatever/
 Well, lookie lookie. Not just shitty hackers make newbie mistakes. It seems a few members of <a href="https://en.wikipedia.org/wiki/Lizard_Squad">Lizard Squad</a> could also do with some Operation Security advice.
 <br><br>Well never fear, citizen! Your neighborhood superhero, Captain Hindsight is here to give both you and them free advice.
 
-adadaddasdfasdf
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-adadasdasdfasdfasdfasdffffffffffffffffffffffffff
-asdfaaaaaaaaaaaaaasssssssssssssssssasdfasdfasdfasdf  asdfasdf
 
-
+todo :P

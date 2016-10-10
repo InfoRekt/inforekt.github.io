@@ -12,7 +12,16 @@
 
     <link rel="stylesheet" type="text/css" href="/static/css/github-dark.css" />
     <link rel="stylesheet" type="text/css" href="{{ '/static/css/stylesheet.css' | prepend: site.baseurl | prepend: site.url}}" />
+    <link rel="stylesheet" type="text/css" href="/static/css/jquery.cookiebar.css" />
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/typed.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.cookiebar.js"></script>
+    <script type="text/javascript">
+	    $(document).ready(function(){
+        	    $.cookieBar({
+                    });
+            });
+    </script>
+
 </head>

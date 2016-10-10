@@ -6,10 +6,10 @@ layout: default
 	<section>
 		{% for post in site.posts %}
         	<div class="posts">
-		   <span class="title">{{post.title}}</span> <a href="{{post.url | prepend: site.baseurl | prepend: site.url }}"></a><br/>by <a href="/author/{{ post.author }}">{{post.author}}</a>
+		   <span class="title"><a class="title" href="{{post.url | prepend: site.baseurl | prepend: site.url }}">{{post.title}}</a></span><br/>by <a href="/author/{{ post.author }}">{{post.author}}</a>
 		    @ {{ post.date | date: "%Y-%m-%d"}}<br/>
 		   <span class="srclink">Source: <a class="srclink" href="{{post.src}}" target="_blank">{{post.srcshort}}</a></span>
-		   {% if post.excerpt.size > 32%}{{post.excerpt}}{% else %}{{post.content | strip_html | strip_newlines | truncate: 160}}{%endif%}
+		   {% if post.excerpt.size > 32%}{{post.excerpt}}{% else %}{{post.content | strip_html | strip_newlines | truncate: 260}}{%endif%}
 		   <a class="readmore" href="{{post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>	
 
 		<!-- {{post.content}} -->

@@ -3,7 +3,7 @@ layout: post
 title: Lizard Squad fails
 description: What people from Lizard Squad should have done differently
 author: cptHindsight
-src: https://justice.gov/usao-ndil/pr/american-and-dutch-teenagers-arrested-criminal-charges-alledgedly-operating
+src: https://www.justice.gov/usao-ndil/pr/american-and-dutch-teenagers-arrested-criminal-charges-alledgedly-operating
 srcshort: https://justice.gov/whatever/
 ---
 

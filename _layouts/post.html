@@ -1,20 +1,9 @@
 ---
 layout: default
-styles: post.css
 ---
-          <header>
-            <h2>{{ page.title }}</h2>
-            <p class="post-tag">
-                <span>{% for tag in page.tags %}
-                    <a class="word-keep" href="{{ '/tags' | prepend: site.baseurl | prepend: site.url }}/#{{ tag }}"><span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
-                    {% endfor %}
-                </span>
-            </p>
-          </header>
-
-          <hr class="boundary">
-          <article>
-            {{content}}
-          </article>
-          <hr class="boundary">
-</div>
+<article>
+ <span class="title">{{page.title}}</span> <a href="{{post.url | prepend: site.baseurl | prepend: site.url }}"></a><br/>by <a href="/author/{{ post.author }}">{{page.author}}</a>
+ @ {{ page.date | date: "%Y-%m-%d"}}<br/>
+ {{content}}
+</article>
+          <hr>

@@ -361,3 +361,13 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+#postauthor {
+ max-width: 130px;
+ max-height: 130px;
+ float: right;
+// margin-left: -150px;
+ border-style:solid;
+ padding: 0.5em 10px;
+ font-size: 12px;
+}

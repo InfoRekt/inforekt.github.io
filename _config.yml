@@ -10,5 +10,6 @@ title: "InfoRekt; constructive feedback on infosec fails"
 email: "captainhindsight@inforekt.fail"
 description: "Got Rekt? Probably an OpSec fail."
 github_username:  "InfoRekt"
+excerpt_separator: "\n\n"
 
 url: "https://inforekt.fail"

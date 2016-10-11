@@ -6,8 +6,7 @@ layout: default
 	<section>
 		{% for post in site.posts %}
        		<div id="postauthor">
-		       	<img src="/static/img/head_{{post.author}}.png"><br>
-			<a href="/author/{{ post.author }}">{{post.author}}</a>
+		       	<a href="/author/{{ post.author }}"><img src="/static/img/head_{{post.author}}.png"></a>
 	       </div>
 
         	<div class="posts">

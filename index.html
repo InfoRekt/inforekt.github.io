@@ -11,8 +11,11 @@ layout: default
 
         	<div class="posts">
 		   <span class="title"><a class="title" href="{{post.url | prepend: site.baseurl | prepend: site.url }}">{{post.title}}</a></span>
-		    @ {{ post.date | date: "%Y-%m-%d"}}<br/>
-		   <span class="srclink">Source: <a class="srclink" href="{{post.src}}" target="_blank">{{post.srcshort}}</a></span>
+		   <br>
+		   <span class="srclink">
+			Posted on: {{ post.date | date: "%Y-%m-%d"}} <br>
+			Source: <a class="srclink" href="{{post.src}}" target="_blank">{{post.srcshort}}</a>
+		   </span>
     		{{ post.excerpt }} 
     {% capture content_words %} 
       {{ post.content | number_of_words }} 

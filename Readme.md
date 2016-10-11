@@ -5,5 +5,7 @@ TODO:<br>
 [X] Scroll to top button <br>
 [ ] How rekt meter <br>
 [ ] author picture to post page and frontpage <br>
-[ ] Post history
-[ ] Search
+[ ] author page: Captain Obvious, Captain Hindsight, General Ignorance <br>
+[ ] Post history<br>
+[ ] Search <br>
+[ ] Search tags: article, meme, advice <br>

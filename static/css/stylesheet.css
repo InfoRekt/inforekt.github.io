@@ -368,9 +368,22 @@ blockquote p {
  max-width: 130px;
  max-height: 130px;
  float: right;
-// margin-left: -150px;
  border-style:dotted;
  border-width: 1px;
  padding: 0.5em 10px;
  font-size: 12px;
+}
+
+.tag {
+ font-size: 12px;
+ color: grey;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ border-top: 1px solid grey;
+ max-width: 100px;
+}
+
+.tag:before {
+    font-family: "Arial";
+    content: "\2756 ";
 }

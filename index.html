@@ -24,10 +24,14 @@ layout: default
       {{ post.excerpt | number_of_words }} 
     {% endcapture %} 
 {% if excerpt_words != content_words %}
-	<a class="readmore" href="{{post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
+	<a class="readmore" href="{{post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a><p>
 	{%endif%}
+	<div class="tag">
+	{{post.tag}}
+	</div>
  		<hr>
 	        {%endfor%}
 	</section>
+<a href="#" class="scrollToTop"></a>
 </div>
 

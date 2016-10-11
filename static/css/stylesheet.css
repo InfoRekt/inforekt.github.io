@@ -260,7 +260,7 @@ a.srclink {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -367,7 +367,8 @@ blockquote p {
  max-height: 130px;
  float: right;
 // margin-left: -150px;
- border-style:solid;
+ border-style:dotted;
+ border-width: 1px;
  padding: 0.5em 10px;
  font-size: 12px;
 }

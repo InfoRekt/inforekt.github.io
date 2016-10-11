@@ -2,7 +2,7 @@
 layout: default
 ---
 <article>
- <span class="title">{{page.title}}</span> <a href="{{post.url | prepend: site.baseurl | prepend: site.url }}"></a><br/>by <a href="/author/{{ post.author }}">{{page.author}}</a>
+ <span class="title">{{page.title}}</span> <a href="{{post.url | prepend: site.baseurl | prepend: site.url }}"></a><br/>by <a href="/author/{{ page.author }}">{{page.author}}</a>
  @ {{ page.date | date: "%Y-%m-%d"}}<br/>
  {{content}}
 </article>

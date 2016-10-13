@@ -14,6 +14,8 @@ rekt: 10
 		So...making compromises in security so you can go faster. Hm, what does this remind me of?
 	</p>
 	<img src="/static/img/gofast.gif">
+
+
 	<p>
 		OK, so now try to think why this looks so idiotic. Someone decided to go "faster" than they actually should. See the resemblance?
 	</p>

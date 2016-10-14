@@ -11,22 +11,20 @@ rekt: 10
 <blockquote>
 Dennis Ritchie, Father Of C Programming Language And Unix, Dies At 70
 </blockquote>
-
-Wait what?
+wait what?
 
 
 Well, thats really interesting news; considering he's been dead since <a href="https://en.wikipedia.org/wiki/Dennis_Ritchie">October 2011</a>. Obviously fact checking is only something that uncertain and insecure news sites do, right?
 <p>
 Considering how well they do their fact-checking, I got curious as to how their website was secured. It was obviously not using any form of HTTPS; not even on the WordPress (yes!) admin login page:
-<img src="/static/img/no_https.jpg"><br>
+<p><img src="/static/img/no_https.jpg"><br><p>
 Wondering what kind of serious news website would actually use Wordpress for their website, I gave it a good lookover and noticed something odd on top of my screen:
-<img src="/static/img/push_notif.jpg">
-
+<p><img src="/static/img/push_notif.jpg"><p><br>
 Seriously? Why would a website like this want to enable push notifications? I have no idea.
-
-A wpscan didn't reveal anything really serious:
-<img src="/static/img/directory_listing.jpg">
 <p>
+A wpscan didn't reveal anything really serious:
+<p><img src="/static/img/directory_listing.jpg">
+<p><br>
 Well,nothing too bad there; they do run a very recent version of Wordpress and seemed to have updated their plugins. Not as bad as it might have been. 
 <p>
 

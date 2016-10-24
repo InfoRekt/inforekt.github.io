@@ -3,6 +3,10 @@ layout: default
 ---
 <article>
  <span class="title">{{page.title}}</span> <a href="{{post.url | prepend: site.baseurl | prepend: site.url }}"></a><br/>by <a href="/author/{{ page.author }}">{{page.author}}</a>
+<div class="share-page">
+    <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via=0xInforekt&related=0xInfoRekt" rel="nofollow" target="_blank" title="Share on Twitter"><img src="/static/img/tweet-button.png"></a>
+</div>
+
  @ {{ page.date | date: "%Y-%m-%d"}}<br/>
  {{content}}
 </article>

@@ -26,6 +26,9 @@ layout: default
 {% if excerpt_words != content_words %}
 	<a class="readmore" href="{{post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a><p>
 	{%endif%}
+<div class="share-page">    
+    <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via=0xInforekt&related=0xInfoRekt" rel="nofollow" target="_blank" title="Share on Twitter"><img src="/static/img/tweet-button.png"></a>
+</div>
 	<div class="tag">
 	{{post.tag}}
 	</div>

@@ -8,7 +8,7 @@ srcshort: http://www.darkreading.com/
 tag: informative
 rekt: 10
 ---
-<blockquote>Researchers surveyed 1,770 senior business and IT executives, including more than 100 CSOs and CISOs, to investigate how their security operations affect business performance.Sixty-eight percent of respondents admit they compromise on security to get apps to market faster.</blockquote><br />
+<blockquote>Researchers surveyed 1,770 senior business and IT executives, including more than 100 CSOs and CISOs, to investigate how their security operations affect business performance.Sixty-eight percent of respondents admit they compromise on security to get apps to market faster.</blockquote>
 <center>
 	<p>
 		So...making compromises in security so you can go faster. Hm, what does this remind me of?
